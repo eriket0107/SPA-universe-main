@@ -1,0 +1,18 @@
+@import url(/style/style.css);
+ 
+body{
+  background-image: url('../assets/explore.png') ; 
+  transition: background-image 500ms ease-in;
+}
+
+nav ul li:nth-child(3){
+  transform: scale(1.1);
+  font-weight: 700;
+  font-size: 2.4rem;
+  border-bottom: .1rem solid white;
+}
+
+.content-wrapper{
+  animation: right-left;
+  animation-duration: 700ms;
+}

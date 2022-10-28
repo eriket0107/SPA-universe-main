@@ -1,0 +1,15 @@
+@import url(/style/style.css);
+
+
+
+nav ul li:nth-child(1){
+  transform: scale(1.1);
+  font-weight: 700;
+  font-size: 2.4rem;
+  border-bottom: .1rem solid white;
+}
+
+.main-content{
+  animation: topdown ;
+  animation-duration: 700ms;
+} 
